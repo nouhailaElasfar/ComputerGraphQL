@@ -1,0 +1,12 @@
+type Query{
+    getComputerByProce(proce:String):[ComputerDto]
+    getComputerByPrice(price:String):[ComputerDto]
+}
+
+type ComputerDto{
+    proce:String
+    ram:String
+    price:Float
+    hardDrive:String
+    macAddress:String
+}
